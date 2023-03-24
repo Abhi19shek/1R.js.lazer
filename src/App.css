@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 20px;
+}
+
+.one {
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: white;
+}
+
+.img-fluid {
+  width: 9%;
+}
+
+.hero {
+  width: 100%;
+}
+
+.back {
+  background-image: 'url(../images/back.png)';
+  /* height: 100%; */
+  width: 100%;
+}
+
+.cds {
+  margin-top: 21%;
+  font-size: auto;
+}
+
+.cds h1 {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.cds p {
+  margin-bottom: 5%;
+}
+
+.clear {
+  padding: 10px 5px;
+  width: 55%;
+  border: none;
+  outline: none !important;
+  padding-right: 16px;
+  padding-left: 100px;
+  background-color: #f0f2fa;
+  border-radius: 4px;
+}
+
+.back {
+  background-image: url("./images/background.png");
+  height: 100%;
+  width: 100%;
+}
+
+.sgcs {
+  background-color: #ebeafa;
+  padding: 14px;
+}
+
+.abh-box-icon {
+background-color:white;
+  box-shadow: inset rgba(255, 255, 255, 0.15) -10px -10px 10px 0px;
+}
+
+.h5:hover {
+  color: white;
+}
+
+.abh-box-icon:hover {
+  background-color: #6a1bed;
+  color: white;
+  animation-name: example;
+  position: relative;
+  animation-duration: 10ms;
+  animation: example 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -4px;
+  }
+}
+
+
+
+.read:hover {
+  background-color: #6a1bed;
+  animation-name: sir;
+
+  position: relative;
+  animation-duration: 10ms;
+  animation: sir 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes sir {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -3px;
+  }
+}
+
+.read-on:hover {
+  background-color: #f1f0fc;
+  animation-name: sir;
+  position: relative;
+  animation-duration: 10ms;
+  animation: sir 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes sir {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -4px;
+  }
+}
+
+.form_wrap {
+  width: 90%;
+}
+
+.form_wrap .form_inner_wrap input {
+  width: 100%;
+  padding: 15px;
+}
+
+.form_inner_wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.zero {
+  padding: 20px 0px;
+  
+}
+
+.form_inner_wrap button {
+  position: absolute;
+  right: 6px;
+  border: 4px;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.but {
+  outline: #6a1bed;
+}
+
+.dsc {
+  margin-top: 10%;
+}
+
+.dsc h2 {
+  font-weight: bolder;
+}
+
+.dsc p {}
+
+.btn-toolbar {
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.read {
+  border: none;
+  background-color: #6a1bed;
+  color: white;
+  border-radius: 4px;
+}
+
+.read-on {
+  border: none;
+  border-radius: 4px;
+  color: #6a1bed;
+  background-color: #dfdcf6;
+}
+
+.read,
+.read-on {
+  padding: 10px 15px;
+}
+
+.iphone {
+  background-size: contain;
+  background-position: top;
+}
+
+.img-fluid-sr {
+  width: 100%;
+}
+
+.crds-box-icon {
+  /* box-shadow: rgba(0, 0, 0, 0.15) -8px -15px 10px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.15) -11px -10px 10px 0px;
+}
+
+.jyant {
+  text-decoration: none;
+}
+
+.mmis {
+  background-color: #6a1bed;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  width: 45%;
+  color: white;
+}
+
+.foot {
+  background-color: #292837;
+  color: white;
+}
+
+.footlogo {
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.footer-menu {
+  list-style: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.lst {
+  background-color: #23222e;
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+
+.footer-icon {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+/* @media (min-width: 992px).col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+@media(min-width:992px).card-title,.card-text {
+  flex: 0 0 auto;
+  width:auto;
+}
+@media(min-width:992px).col-lg-4{
+  flex:0 0 auto;
+  width:50%;
+}
+@media(min-width:320px).logo{
+  width:auto;
+}
+@media (min-width: 992px)
+.col-lg- {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+} */
